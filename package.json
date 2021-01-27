@@ -2,14 +2,27 @@
   "name": "next-google",
   "version": "0.1.0",
   "private": true,
+  "homepage":"./",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export":"next build && next export"
   },
   "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@chakra-ui/core": "^0.8.0",
+    "@chakra-ui/react": "^1.1.5",
+    "@chakra-ui/theme": "^1.4.1",
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
+    "framer-motion": "^3.2.1",
     "next": "10.0.5",
     "react": "17.0.1",
     "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@emotion/babel-preset-css-prop": "^11.0.0"
   }
 }
